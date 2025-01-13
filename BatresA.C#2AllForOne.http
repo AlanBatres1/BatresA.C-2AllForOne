@@ -1,0 +1,6 @@
+@BatresA.C_2AllForOne_HostAddress = http://localhost:5049
+
+GET {{BatresA.C_2AllForOne_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
