@@ -9,6 +9,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<SayHelloServices>();
+builder.Services.AddScoped<AskingQuestionsServices>();
+builder.Services.AddScoped<Add2NumsServices>();
+builder.Services.AddScoped<MadLibServices>();
 
 var app = builder.Build();
 
