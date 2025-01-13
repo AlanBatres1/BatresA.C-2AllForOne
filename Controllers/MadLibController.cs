@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BatresA.C_2AllForOne.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class MadLibController : ControllerBase
     {
         private readonly MadLibServices _madLibServices;

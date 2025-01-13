@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BatresA.C#2AllForOne")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e8a5a62e969bae6c42a181dda52aa4a30b284b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("BatresA.C#2AllForOne")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BatresA.C#2AllForOne")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
