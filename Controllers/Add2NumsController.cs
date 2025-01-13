@@ -12,7 +12,8 @@ namespace BatresA.C_2AllForOne.Controllers
     public class Add2NumsController : ControllerBase
     {
         private readonly Add2NumsServices _add2NumsServices;
-        public Add2NumsController(Add2NumsServices add2NumsServices){
+        public Add2NumsController(Add2NumsServices add2NumsServices)
+        {
             _add2NumsServices = add2NumsServices;
         }
 

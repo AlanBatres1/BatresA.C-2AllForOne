@@ -12,7 +12,8 @@ namespace BatresA.C_2AllForOne.Controllers
     public class AskingQuestionsController : ControllerBase
     {
         private readonly AskingQuestionsServices _askingQuestionsServices;
-        public AskingQuestionsController(AskingQuestionsServices askingQuestionsServices){
+        public AskingQuestionsController(AskingQuestionsServices askingQuestionsServices)
+        {
             _askingQuestionsServices = askingQuestionsServices;
         }
 

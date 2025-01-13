@@ -12,6 +12,12 @@ builder.Services.AddScoped<SayHelloServices>();
 builder.Services.AddScoped<AskingQuestionsServices>();
 builder.Services.AddScoped<Add2NumsServices>();
 builder.Services.AddScoped<MadLibServices>();
+builder.Services.AddScoped<OddOrEvenServices>();
+builder.Services.AddScoped<ReverseItAlphanumericServices>();
+builder.Services.AddScoped<ReverseItNumbersServices>();
+builder.Services.AddScoped<Magic8BallServices>();
+builder.Services.AddScoped<GuessItServices>();
+builder.Services.AddScoped<RestaurantPickerServices>();
 
 var app = builder.Build();
 

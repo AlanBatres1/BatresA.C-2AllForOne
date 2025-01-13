@@ -12,7 +12,8 @@ namespace BatresA.C_2AllForOne.Controllers
     public class OddOrEvenController : ControllerBase
     {
         private readonly OddOrEvenServices _oddOrEvenServices;
-        public OddOrEvenController( OddOrEvenServices oddOrEvenServices){
+        public OddOrEvenController(OddOrEvenServices oddOrEvenServices)
+        {
             _oddOrEvenServices = oddOrEvenServices;
         }
     }

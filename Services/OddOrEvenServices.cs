@@ -9,10 +9,11 @@ namespace BatresA.C_2AllForOne.Services
     {
         public string OddOrEven(int number)
         {
-        if(number %2==0)
+            if (number % 2 == 0)
             {
                 return $"{number} is even";
-            }else
+            }
+            else
             {
                 return $"{number} is odd";
             }
