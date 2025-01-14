@@ -16,5 +16,11 @@ namespace BatresA.C_2AllForOne.Controllers
         {
             _oddOrEvenServices = oddOrEvenServices;
         }
+        [HttpGet]
+        [Route("OddOrEven/{number}")]
+        public string OddOrEven(int number)
+        {
+            return _oddOrEvenServices.OddOrEven(number);
+        }
     }
 }
