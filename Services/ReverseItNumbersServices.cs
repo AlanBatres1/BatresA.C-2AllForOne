@@ -31,7 +31,7 @@ namespace BatresA.C_2AllForOne.Services
                     reversedNumber += number[i];
                 }
             }
-            reversedNum.Add($"Your Number {number} reversed is {reversedNumber}");
+            reversedNum.Add($"{reversedNumber}");
             return reversedNum;
         }
     }

@@ -17,6 +17,7 @@ namespace BatresA.C_2AllForOne.Services
             {
                 return $"{number} is odd";
             }
+            
         }
     }
 }

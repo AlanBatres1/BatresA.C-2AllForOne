@@ -16,16 +16,16 @@ namespace BatresA.C_2AllForOne.Services
 
             if(validFirstNumber == false || validSecondNumber == false)
             {
-                return "Make sure you are typing integer numbers.";
+                return "Make sure you are typing integer numbers";
             }
             else
             {
                 if(firstNumber > secondNumber) {
-                    return $"{firstNumber} is greater than {secondNumber}.";
+                    return $"{firstNumber} is greater than {secondNumber}";
                 } else if(firstNumber < secondNumber) {
-                    return $"{firstNumber} is less than {secondNumber}.";
+                    return $"{firstNumber} is less than {secondNumber}";
                 } else {
-                    return $"{firstNumber} is equal to {secondNumber}.";
+                    return $"{firstNumber} is equal to {secondNumber}";
                 }
             }
         }

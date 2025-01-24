@@ -15,7 +15,7 @@ namespace BatresA.C_2AllForOne.Services
             {
                 reversed += Input[i];
             }
-            reversedInput.Add($"Your Input {Input} reversed is {reversed}");
+            reversedInput.Add($"{reversed}");
             return reversedInput;
         }
     }
