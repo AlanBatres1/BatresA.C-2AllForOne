@@ -18,7 +18,7 @@ namespace BatresA.C_2AllForOne.Controllers
         }
 
         [HttpGet]
-        [Route("GreaterOrLess/{FirstNumber}/{SecondNumber}")]
+        [Route("GreaterOrLess/{num1}/{num2}")]
 
         public string GreaterOrLess(string num1, string num2){
             return _greaterOrLessServices.GreaterOrLess(num1, num2);
