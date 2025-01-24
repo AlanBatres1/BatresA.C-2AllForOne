@@ -18,6 +18,7 @@ builder.Services.AddScoped<ReverseItNumbersServices>();
 builder.Services.AddScoped<Magic8BallServices>();
 builder.Services.AddScoped<GuessItServices>();
 builder.Services.AddScoped<RestaurantPickerServices>();
+builder.Services.AddScoped<GreaterOrLessServices>();
 
 var app = builder.Build();
 
