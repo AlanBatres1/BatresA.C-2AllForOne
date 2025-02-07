@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/BatresA.C#2AllForOne.props" />
+</Project>

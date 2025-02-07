@@ -19,7 +19,7 @@ namespace BatresA.C_2AllForOne.Controllers
 
         [HttpGet]
         [Route("AskingQuestions/{name}/{time}")]
-        public List<string> GreetPersonList(string name, int time)
+        public List<string> GreetPersonList(string name, string time)
         {
             return _askingQuestionsServices.AskingQuestions(name, time);
         }

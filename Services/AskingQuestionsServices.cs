@@ -8,17 +8,25 @@ namespace BatresA.C_2AllForOne.Services
     public class AskingQuestionsServices
     {
         public List<string> AskingQuestionsList = new();
-        public List<string> AskingQuestions(string name, int time)
+
+    public List<string> AskingQuestions(string name, string timeInput)
+    {
+        if (!int.TryParse(timeInput, out int time))
         {
-            if (time > 12 || time == 0)
-            {
-                AskingQuestionsList.Add("Please Enter a Hour 1-12");
-            }
-            else
-            {
-                AskingQuestionsList.Add($"Good Morning {name}! You have woken at around {time}:00");
-            }
+            AskingQuestionsList.Add("Please enter a valid integer for the time.");
             return AskingQuestionsList;
         }
+        
+        if (time < 1 || time > 12)
+        {
+            AskingQuestionsList.Add("Please enter a valid hour between 1 and 12.");
+        }
+        else
+        {
+            AskingQuestionsList.Add($"Good Morning {name}! You have woken at around {time}:00");
+        }
+
+        return AskingQuestionsList;
+    }
     }
 }
