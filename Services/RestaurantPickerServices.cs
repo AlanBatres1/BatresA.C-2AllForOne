@@ -19,7 +19,7 @@ namespace BatresA.C_2AllForOne.Services
 
             if (foodType == "Fast Food")
             {
-                switch (rng.Next(11))
+                switch (rng.Next(10))
                 {
                     case 1:
                         option = "McDonald's";
@@ -55,7 +55,7 @@ namespace BatresA.C_2AllForOne.Services
             }
             else if (foodType == "Mexican")
             {
-                switch (rng.Next(11))
+                switch (rng.Next(10))
                 {
                     case 1:
                         option = "Tacos Chapala";
@@ -91,7 +91,7 @@ namespace BatresA.C_2AllForOne.Services
             }
             else if (foodType == "Chinese")
             {
-                switch (rng.Next(11))
+                switch (rng.Next(10))
                 {
                     case 1:
                         option = "China Village Restaurant";

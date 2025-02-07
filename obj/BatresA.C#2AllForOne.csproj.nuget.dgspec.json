@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alanbatres/Documents/Level 2/Week 2/BatresA.AllForOneBackEnd/BatresA.C#2AllForOne.csproj": {}
+    "/Users/alanbatres/Documents/Level 2/Week 3/BatresA.P#AllForOne/BatresA.AllForOneBackEnd/BatresA.C#2AllForOne.csproj": {}
   },
   "projects": {
-    "/Users/alanbatres/Documents/Level 2/Week 2/BatresA.AllForOneBackEnd/BatresA.C#2AllForOne.csproj": {
+    "/Users/alanbatres/Documents/Level 2/Week 3/BatresA.P#AllForOne/BatresA.AllForOneBackEnd/BatresA.C#2AllForOne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alanbatres/Documents/Level 2/Week 2/BatresA.AllForOneBackEnd/BatresA.C#2AllForOne.csproj",
+        "projectUniqueName": "/Users/alanbatres/Documents/Level 2/Week 3/BatresA.P#AllForOne/BatresA.AllForOneBackEnd/BatresA.C#2AllForOne.csproj",
         "projectName": "BatresA.C#2AllForOne",
-        "projectPath": "/Users/alanbatres/Documents/Level 2/Week 2/BatresA.AllForOneBackEnd/BatresA.C#2AllForOne.csproj",
+        "projectPath": "/Users/alanbatres/Documents/Level 2/Week 3/BatresA.P#AllForOne/BatresA.AllForOneBackEnd/BatresA.C#2AllForOne.csproj",
         "packagesPath": "/Users/alanbatres/.nuget/packages/",
-        "outputPath": "/Users/alanbatres/Documents/Level 2/Week 2/BatresA.AllForOneBackEnd/obj/",
+        "outputPath": "/Users/alanbatres/Documents/Level 2/Week 3/BatresA.P#AllForOne/BatresA.AllForOneBackEnd/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/alanbatres/.nuget/NuGet/NuGet.Config"

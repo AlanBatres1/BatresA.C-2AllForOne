@@ -11,6 +11,7 @@ namespace BatresA.C_2AllForOne.Services
         {
             int sum = num1 + num2;
             return $"{sum}";
+            
         }
     }
 }
