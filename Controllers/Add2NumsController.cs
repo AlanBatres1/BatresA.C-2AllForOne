@@ -19,7 +19,7 @@ namespace BatresA.C_2AllForOne.Controllers
 
         [HttpGet]
         [Route("AddNumbers/{num1}/{num2}")]
-        public string Add2Nums(int num1, int num2)
+        public string Add2Nums(string num1, string num2)
         {
             return _add2NumsServices.Add2Nums(num1, num2);
         }

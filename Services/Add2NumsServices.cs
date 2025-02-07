@@ -7,11 +7,14 @@ namespace BatresA.C_2AllForOne.Services
 {
     public class Add2NumsServices
     {
-        public string Add2Nums(int num1, int num2)
+        public string Add2Nums(string num1, string num2)
         {
-            int sum = num1 + num2;
-            return $"{sum}";
-            
+            if (!int.TryParse(num1, out int firstNumber) || !int.TryParse(num2, out int secondNumber))
+            {
+                return "Enter integers";
+            }
+            int sum = firstNumber + secondNumber;
+            return sum.ToString();
         }
     }
 }
